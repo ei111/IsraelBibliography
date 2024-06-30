@@ -1,4 +1,3 @@
-</html>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -15,7 +14,8 @@
             padding: 0;
         }
 
-        header, footer {
+        header,
+        footer {
             background: #333;
             color: #fff;
             text-align: center;
@@ -24,6 +24,7 @@
 
         nav {
             display: flex;
+            flex-wrap: wrap;
             justify-content: center;
             background: #555;
         }
@@ -33,6 +34,8 @@
             padding: 1em;
             text-decoration: none;
             text-transform: uppercase;
+            flex: 1 1 auto;
+            text-align: center;
         }
 
         nav a:hover {
@@ -51,7 +54,9 @@
             margin-bottom: 1em;
         }
 
-        h1, h2, h3 {
+        h1,
+        h2,
+        h3 {
             color: #333;
         }
 
@@ -79,6 +84,22 @@
             background: #e9e9e9;
             padding: 1em;
             margin-top: 1em;
+        }
+
+        @media (max-width: 768px) {
+            .container {
+                width: 95%;
+                padding: 0 1em;
+            }
+
+            nav a {
+                padding: 0.5em;
+                font-size: 0.9em;
+            }
+
+            section {
+                padding: 1em;
+            }
         }
     </style>
 </head>
@@ -133,16 +154,15 @@
         <section id="is-aus-connection">
             <h2>2c. IS & AUS - The Israeli-Australian Connection</h2>
             <h3>Weizmann Australia</h3>
-            <p>The Weizmann Australia is a not-for-profit organization that aims to support the Weizmann Institute of Science and Technology in Israel. Thanks to them, Australia and Israel have better connections in the worldwide science industry. They also signed a partnership with the Garvan Institute. As a result of the partnership of these two organizations, they have been able to study several topics that haven’t been looked at before.</p>
+            <p>The Weizmann Australia is a not-for-profit organization that aims to support the Weizmann Institute of Science and Technology in Israel. Thanks to them, Australia and Israel have better connections in the worldwide science industry. They also signed a partnership with the Garvan Institute. As a result of the partnership of these two organizations, they are doing joint medical research, working on cancer, diabetes, infections and autoimmune diseases. This work has led to several breakthroughs.</p>
 
-            <h3>The Technion Society of Australia</h3>
-            <p>The Technion Society of Australia is an organization that aims to support The Technion, which is the #1 Israel Academic Institution. They want to support scientists researchers and future leaders.</p>
+            <h3>Technion Australia</h3>
+            <p>The Technion Institute of Technology is one of the best research universities in the world. It has a very strong relationship with Australia. The Australia Technion Society was established in 1943. Their goal is to keep building connections with scientists and researchers in Australia. This allows for the creation of several research projects, partnerships and grants. This has led to amazing breakthroughs in the field of medical science, engineering and technology, which could improve the future of both nations.</p>
         </section>
 
         <section id="famous-faces">
             <h2>2d. Famous Faces</h2>
-            <h3>Ilan Ramon</h3>
-            <p>Ilan Ramon was Israel’s very first astronaut. Born in Ramat Gan on June 20, 1954, he grew up in Be’er Sheva and graduated with a Bachelor of Science degree in Electronics and Computer Engineering. He became a Colonel and fighter pilot in the Air Force. In 1981 he took part in Operation Opera and was the youngest pilot. He also fought in the Yom Kippur War and Operation Peace for Galilee. He joined NASA in 1997 as a payload specialist. He trained to go to space for 5 years and logged almost 16 days of space-time. Sadly the space shuttle was destroyed and all the crew members passed away during re-entry, just 15 minutes before the scheduled landing time. He was the only non-American astronaut on the flight and one of only 2 Israelis to ever become astronauts.</p>
+            <p><strong>Ilon Ramon:</strong> Ilon Ramon was born in Ramat Gan on June 20, 1954, he grew up in Be’er Sheva and graduated with a Bachelor of Science degree in Electronics and Computer Engineering. He became a Colonel and fighter pilot in the Air Force. In 1981 he took part in Operation Opera and was the youngest pilot. He also fought in the Yom Kippur War and Operation Peace for Galilee. He joined NASA in 1997 as a payload specialist. He trained to go to space for 5 years and logged almost 16 days of space-time. Sadly the space shuttle was destroyed and all the crew members passed away during re-entry, just 15 minutes before the scheduled landing time. He was the only non-American astronaut on the flight and one of only 2 Israelis to ever become astronauts.</p>
         </section>
 
         <section id="tikkun-olam">
